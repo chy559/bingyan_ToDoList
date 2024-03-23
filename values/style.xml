@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="add_icon">
+        <item name="android:background">@drawable/add_icon</item>
+    </style>
+    <style name="EditText">
+        <item name="android:background">@drawable/edit_blank</item>
+    </style>
+</resources>

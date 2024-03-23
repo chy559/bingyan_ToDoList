@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TaskListFragment">
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:text="待办事项"-->
+<!--        android:textStyle="italic"-->
+<!--        android:textSize="30dp"-->
+<!--        android:textColor="@color/black" />-->
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:title="工具栏" />
+
+    <Button
+        android:id="@+id/add_icon"
+        style="@style/add_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="325dp"
+        android:layout_weight="1" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"/>
+
+</FrameLayout>
